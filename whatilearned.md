@@ -14,3 +14,10 @@ course 2:
     Variables, Strings & Numbers .. what i have done here is just declare the variables and using it 
     My observation : there is somthings unique here i have tried to declare a value and not using it and here is the suprise it's giving me an error instead of just warning wich making me in setuation no dead code. 
     otherwise everything close to C#.
+
+course 3: 
+    Printing & Formatting Strings.. Intersting topic to discuss about the thing is I expect that it will be most likly as pyton way [f"{name} {age}"]
+    but instead it's as C copy usnig [% specifiers]. because the go langauge is trendy langauge so it's little bit we should ask why they didn't use "Interpolation". the first thing in my mind goes like "wait - so why google Still Doesn't Have String Interpolation for GO langauge? " . So as 2026 programmer ofcourse I have asked my boy "Claude" about it and he said there is actual Proposals but got Declined. also he said "The primary reasons are the existing fmt.Sprintf function already provides robust string formatting capabilities and language complexity" and so on. and then claude mention also about wat rob pike said "Once you understand the building blocks, you shouldn't need help from the reference manual to write interesting code." . Well, i think i got my answer.
+
+
+
