@@ -30,3 +30,5 @@ course 5:
 
 course 6: 
     It was about arrays and slices. arrays are fixed size and the size is actually part of the type itself, so [3]string and [5]string are completely different types in Go, not the same thing with different lengths. slices are the flexible version, they use arrays under the hood but you don't deal with the size directly. append doesn't modify the slice in place, it returns a new one. for range slicing the end index is always exclusive so [1:3] gives you index 1 and 2 only, not 3.
+
+after the 6th cousrse i don't think i need type everyting now at least i have the vision how this langauge it's works. But i will write down here if there is somthing i didn't expect.
