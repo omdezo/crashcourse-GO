@@ -23,5 +23,10 @@ course 4:
     Arrays & Slices .. it's just about the ways to declare and initialize an array also how to slice it in two ways "slice using array method  & range method" 
     "arrays.go" 
 
+course 5: 
+    It was about the standard library. basically Go ships with a lot out of the box, i touched strings and sort. with strings i used the usual stuff - Contains, ReplaceAll, ToUpper, Index, Split. the interesting thing i noticed is that none of these change the original value, strings are immutable in Go, everything returns a new value. i confirmed this myself by printing the original string after all the operations and it was unchanged.
 
+    for sort i sorted ints and strings with sort.Ints and sort.Strings, then used SearchInts and SearchStrings to find indexes. one thing to be careful about here - the Search functions only work correctly if the slice is already sorted first. if it's not you don't get an error, you just get a wrong index back silently.
 
+course 6: 
+    It was about arrays and slices. arrays are fixed size and the size is actually part of the type itself, so [3]string and [5]string are completely different types in Go, not the same thing with different lengths. slices are the flexible version, they use arrays under the hood but you don't deal with the size directly. append doesn't modify the slice in place, it returns a new one. for range slicing the end index is always exclusive so [1:3] gives you index 1 and 2 only, not 3.
