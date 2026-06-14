@@ -1,3 +1,5 @@
+Ignore this file (it's just for me to note tings down to go back to it if needed)
+
 what is go and why it's matter: 
  compiled - typed - object oriented by it's own way 
  it's fast since it's doesn't have (TL) like the ASP.NET  
@@ -17,7 +19,7 @@ course 2:
 
 course 3: 
     Printing & Formatting Strings.. Intersting topic to discuss about the thing is I expect that it will be most likly as pyton way [f"{name} {age}"]
-    but instead it's as C copy usnig [% specifiers]. because the go langauge is trendy langauge so it's little bit we should ask why they didn't use "Interpolation". the first thing in my mind goes like "wait - so why google Still Doesn't Have String Interpolation for GO langauge? " . So as 2026 programmer ofcourse I have asked my boy "Claude" about it and he said there is actual Proposals but got Declined. also he said "The primary reasons are the existing fmt.Sprintf function already provides robust string formatting capabilities and language complexity" and so on. and then claude mention also about wat rob pike said "Once you understand the building blocks, you shouldn't need help from the reference manual to write interesting code." . Well, i think i got my answer.
+    but instead it's as C copy usnig [% specifiers]. because the go langauge is trendy langauge so it's little bit we should ask why they didn't use "Interpolation". the first thing in my mind goes like "wait - so why google Still Doesn't Have String Interpolation for GO langauge? " . So, as 2026 programmer ofcourse I have asked my boy "Claude" about it and he said there is actual Proposals but got Declined. also he said "The primary reasons are the existing fmt.Sprintf function already provides robust string formatting capabilities and language complexity" and so on. and then claude mention also about wat rob pike said "Once you understand the building blocks, you shouldn't need help from the reference manual to write interesting code." . Well, i think i got my answer.
 
 course 4:
     Arrays & Slices .. it's just about the ways to declare and initialize an array also how to slice it in two ways "slice using array method  & range method" 
@@ -32,3 +34,5 @@ course 6:
     It was about arrays and slices. arrays are fixed size and the size is actually part of the type itself, so [3]string and [5]string are completely different types in Go, not the same thing with different lengths. slices are the flexible version, they use arrays under the hood but you don't deal with the size directly. append doesn't modify the slice in place, it returns a new one. for range slicing the end index is always exclusive so [1:3] gives you index 1 and 2 only, not 3.
 
 after the 6th cousrse i don't think i need type everyting now at least i have the vision how this langauge it's works. But i will write down here if there is somthing i didn't expect.
+
+there is somthin intersting also about multiple_return_values it's fix problem error handling that i have to know if there is problem in the code in during compiling which means it's not like c / c# / c++ /ts /java / js .. so if there is an error it will force me to handle it not leting me compile. 

@@ -17,13 +17,13 @@ func main(){
 	// the original value it's not changing
 	fmt.Println("original string value =", greeting)
 
-	ages := []int{25, 30, 35, 40, 45}
+	ages := []int{25, 70, 35, 40, 45}
 
 	sort.Ints(ages)
 	fmt.Println(ages)
 
-	index := sort.SearchInts(ages, 35)
-	fmt.Println("index of 35 in ages slice:", index)
+	index := sort.SearchInts(ages, 70)
+	fmt.Println("index of 70 in ages slice:", index)
 
 	names := []string{"omar", "ahmed", "hassan", "mohamed"}
 

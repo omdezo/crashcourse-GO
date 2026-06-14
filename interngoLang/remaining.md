@@ -1,0 +1,88 @@
+# Remaining Topics
+
+- Constants - done
+- Variadic Functions - done
+- Closures - done
+- Recursion - done
+- Range over Built-in Types
+- Strings and Runes
+- Enums
+- Struct Embedding
+- Generics
+- Range over Iterators
+- Errors - 1
+- Custom Errors -2 
+- Goroutines- 9
+- Channels
+- Channel Buffering
+- Channel Synchronization
+- Channel Directions
+- Select
+- Timeouts
+- Non-Blocking Channel Operations
+- Closing Channels
+- Range over Channels
+- Timers
+- Tickers
+- Worker Pools
+- WaitGroups - 10 
+- Rate Limiting
+- Atomic Counters
+- Mutexes
+- Stateful Goroutines
+- Sorting by Functions
+- Panic
+- Defer - 11
+- Recover
+- Text Templates
+- Regular Expressions
+- JSON - 5
+- XML
+- Time -3 
+- Epoch
+- Time Formatting / Parsing -  
+- Random Numbers
+- URL Parsing
+- SHA256 Hashes
+- Base64 Encoding
+- Reading Files
+- Line Filters
+- File Paths
+- Directories
+- Temporary Files and Directories
+- Embed Directive
+- Testing and Benchmarking
+- Command-Line Arguments
+- Command-Line Flags
+- Command-Line Subcommands
+- Environment Variables
+- Logging - 13
+- HTTP Client - 7
+- HTTP Server - 6 
+- TCP Server - 8
+- Context - 12
+- Spawning Processes
+- Exec'ing Processes
+- Signals
+- Exit
+
+
+Most important things : 
+- Errors - 1
+- Custom Errors - 2 
+- Time - 3 
+- Time Formatting / Parsing - 4
+- JSON - 5
+- HTTP Server - 6 
+- Context - 12
+- Logging - 13
+- Timeouts - 15
+- URL Parsing - 16
+- HTTP framworks (REST)
+- Database tools (sqlc, pgx)
+- Migration tools (golang-migrate)
+- Temporal (Optional)
+- keyclock
+- AD active directry
+- postg
+REST APIS gin 
